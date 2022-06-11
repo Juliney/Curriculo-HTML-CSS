@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.container
+{ 
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: Ivory;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    padding-bottom: 20px;
+
+}
+.Text .img 
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Text .img .julio_perfil
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+
+}
+
+.Text h2
+{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.contact_info
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact_info ul
+{
+    position: relative;
+}
+
+.contact_info ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact_info ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.contact_info span
+{
+    color: ivory;
+    font-weight: 300;
+}
+
+.info_education li
+{
+    margin-bottom: 15px;
+}
+
+.info_education h5
+{
+    color: darkgray;
+    font-weight: 500;
+    
+
+}
+
+.info_education h4:nth-child(2)
+{
+    color: ivory;
+    font-weight: 500;
+}
+
+.info_education h4
+{
+    color: ivory;
+    font-weight: 300;
+}
+
+.info_language
+{
+    color: ivory;
+    font-weight: 300;
+}
+
+
+.container .right_side
+{ 
+    position: relative;
+    background: ivory;
+    padding: 40px;
+    
+}
+
+.container .left_side
+{ 
+    position: relative;
+    background: #003158;
+    padding: 40px;
+    
+}
+
+.about
+{
+
+    margin-bottom:  50px;
+}
+
+.about:last-child
+{
+
+    margin-bottom:  0px;
+}
+
+.title_02
+{
+    color: #003158;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.p
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+about .Text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
